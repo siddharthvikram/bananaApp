@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    --primary-color: #FCD961;
+    --secondary-color: #424242;
+    --third-color: 	#B3B3B3;
+}
+
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-color);
+    height: 100%;
+}
+body{
+    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+    padding: 0px;
+}
+
+.head{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    margin-bottom: 1rem;
+    color: var(--third-color);
+    border-bottom-left-radius: 2rem;
+}
+
+.sec{
+    /* max-height: 200px; */
+}
+.image{
+    max-height: 350px;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.translate{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: .5rem;
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+
+}
+
+.section1{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+
+}
+.foot{
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: var(--secondary-color);
+    font-size: 1.5rem;
+    color: var(--third-color);
+    padding: .5rem;
+    border-top-right-radius: 2rem;
+}
+.foot h2{
+    margin: .5rem;
+}
+
+.foot p{
+    margin: .5rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--third-color);
+}
+
+button{
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    font-family: inherit;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    cursor: pointer;
+}

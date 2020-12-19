@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Talk</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        textarea{
+            width: 500px;
+            height: 100px;
+            display: block;
+            margin: auto;
+            padding: 1rem;
+            font-family: inherit;
+            margin-top: 1rem;
+        }
+       
+
+        #outputbox{
+            border: 2px solid black;
+            height: 100px;
+            overflow: auto;
+            width: 500px;
+            display: block;
+            margin: auto;
+            padding: 1rem;
+            font-family: inherit;
+            margin-bottom: 1rem;
+            background-color: white;        }
+    </style>
+
+</head>
+
+
+<body>
+   
+    <header>
+        <h1 class="head">Banana Talk</h1>
+    </header>
+
+    <section class="sec">
+        <img class="image" src="image/V3gf7EK.jpg" alt="">
+    </section>
+    <div class="translate">Translator</div>
+
+    <section class="section1">
+        <textarea id="txt-input" placeholder="Enter your text here"></textarea>
+        <br>
+        <button id="txt-button">Bananaaaaaaaaaaa...</button>
+
+        <div>your banana translation is here....
+            <br>
+            <small style="color: brown;">(tu banana sackae tis aca)</small>
+        </div>
+        <br>
+        <div id="outputbox"></div>
+    </section>
+
+   
+    
+
+    <footer class="foot">
+       <h2>about</h2>
+        <p> we know you love minions. so here is a translator for minion language or banana language. </p>
+        <a href="">Back</a>
+    </footer> 
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
